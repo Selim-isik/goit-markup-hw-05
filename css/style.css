@@ -521,6 +521,18 @@ p {
 }
 
 .footer-mail {
+  flex-direction: row;
   align-items: baseline;
-  padding: 80px;
+  padding: 50px;
+}
+
+.footer-mail .footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-left: 23px;
+  margin-bottom: 20px;
 }
