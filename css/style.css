@@ -661,6 +661,10 @@ p {
   margin-bottom: 24px;
 }
 
+.form-div-text {
+  margin-bottom: 16px;
+}
+
 .comment-label {
   font-size: 12px;
   line-height: 1.17;
