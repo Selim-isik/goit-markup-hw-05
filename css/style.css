@@ -629,6 +629,10 @@ p {
   border-color: #4d5ae5;
 }
 
+.user-input:focus ~ .user-svg {
+  fill: #4d5ae5;
+}
+
 .user-svg {
   position: absolute;
   left: 16px;
@@ -670,6 +674,7 @@ p {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: inline-flex;
 }
 
 .comment-span {
@@ -684,6 +689,7 @@ p {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: inline-flex;
 }
 
 input[type='checkbox']:checked + label .form-checkbox-span {
